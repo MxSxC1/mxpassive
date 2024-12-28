@@ -19,5 +19,7 @@ scoreboard players set mxgsb togglepassive 1
 scoreboard players set mxgsb glpassivecounter 0
 
 scoreboard players set mxgsb gldebug 0
+schedule clear mxpassive:man
+execute run schedule function mxpassive:man 2s
 scoreboard players set mxgsb glinstalled 1
 ####END INIT###
